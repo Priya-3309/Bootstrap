@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>bootstrap task</title>
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--bootstrap JS-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/8b1679ca39.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--Heading-->
+  <header>
+    <nav class="navbar navbar-dark   p-3 " style="background-color: white;">
+      <div class="container" style="background-color: black;">
+        <a href="#" class="navbar-brand" >Hungry Hunt</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar"><span
+            class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-items">
+              <a href="#" class="nav-link active"><i class="fa-solid fa-house"></i>&nbsp;Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link"><i class="fa-solid fa-circle-info"></i>&nbsp;About</a>
+            </li>
+           
+            <li>
+              <a href="#contact" class="nav-link"><i class="fa-solid fa-phone"></i>&nbsp;Contact US</a>
+            </li>
+            <li>
+              <a href="#review" class="nav-link"><i class="fa-regular fa-face-smile"></i>&nbsp;Review</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--End Heading-->
+  <!--carousel-->
+  <div id="carousel" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="" alt="Slider" class="d-block w-75">
+      </div>
+      
+      <div class="carousel-item">
+        <img src="Punjabi-Samosa-2.jpg" alt="Slider" class="d-block w-75">
+      </div>
+      <div class="carousel-item">
+        <img src="samosa.jpg" alt="Slider" class="d-block w-75">
+      </div>
+      <div class="carousel-item">
+        <img src="vada.jpg" alt="Slider" class="d-block w-75">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+ <!--carousel END-->
+  <!--About-->
+  <div class="container-fluid mt-3 d-flex  align-item-center" style="height: auto;" id="about">
+    <div class="row">
+      <div class=" col-md align-self-center m-3">
+        <h1  style="color: white;">About Our Shop</h1>
+        <P style="color: white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium similique tempore veniam hic deserunt 
+        et voluptates voluptatem dolores aut animi quis voluptate, consequatur accusantium provident odit eum a
+        necessitatibus vel ut unde harum. Nobis, illo consectetur error 
+        aliquid odit deserunt accusamus quasi eius ut odio sit neque explicabo labore assumenda.</P>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+     <!--End About-->
+      <!--Products-->
+      <center class="p-3 text-primary" id="product" style="background-color: floralwhite;">
+        <h3>MENU</h3>
+      </center>
+      <div class="container my-2" style="background-color: lightgoldenrodyellow;">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>BASUNDI</h3>
+              </div>
+              <div class="card-body">
+                <img src="Basundi.jpg" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 70</h5>
+                <a href="#" class="btn btn-primary d-block">ADD CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>GULAB JAMUN</h3>
+              </div>
+              <div class="card-body">
+                <img src="gulab jamun.jpg" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$50</h5>
+                <a href="#" class="btn btn-primary d-block">Order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>DOSA</h3>
+              </div>
+              <div class="card-body">
+                <img src="dosa (2).jpg" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 30</h5>
+                <a href="#" class="btn btn-primary d-block">Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="container my-3" style="background-color: lightgoldenrodyellow;">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>MASALA DOSA</h3>
+              </div>
+              <div class="card-body">
+                <img src="Masala-Dosa.jpg" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 90</h5>
+                <a href="#" class="btn btn-primary d-block">Order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>VENPONGAL</h3>
+              </div>
+              <div class="card-body">
+                <img src="venpongal.jpg" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 40</h5>
+                <a href="#" class="btn btn-primary d-block">Order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>VADA</h3>
+              </div>
+              <div class="card-body">
+                <img src="vada.jpg" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 10</h5>
+                <a href="#" class="btn btn-primary d-block">Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--End Products-->
+      <!--Contact Us-->
+<div class="container d-flex justify-content-around  text-center my-3" id="review" style="background-color: antiquewhite;">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card" style="width:18rem;">
+              <div class="card-header">
+                <h3>Review</h3>
+              </div>
+              <div class="card-body">
+                <img src="vijay image.jpeg" class="card-img-top">
+                <p>MOROJINK
+                  CUSTOMER
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card" style="width:18rem;">
+              <div class="card-header">
+                <h3>Review</h3>
+              </div>
+              <div class="card-body">
+                <img src="alexa.jpg" class="card-img-top">
+                <p>MOROJINK
+                  CUSTOMER
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="container-fluid " style="background-color: black; color: white;">
+        <div class="row">
+          <div class="col-sm-4">
+            <br>
+            <h6 class="h3">Hungry HUNT</h6><br>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Nobis, minus?</p>
+
+          </div>
+          <div class="col-sm-4">
+            <br>
+            <h6 class="h3">contact us</h6><br>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Nobis, minus?</p>
+
+          </div>
+          <div class="col-sm-4">
+            <br>
+            <h6 class="h3"></h6><br>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Nobis, minus?</p>
+            Social Media<br>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+
+        </div>
+      </div>
+      <!--EndFooter-->
+</body>
+
+</html>
